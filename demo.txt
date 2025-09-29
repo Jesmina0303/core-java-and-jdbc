@@ -1,0 +1,51 @@
+class demo
+{
+public static void main(String args[])
+{
+//assigment operator
+Integer a= parse.Integer(args[0]);
+System.out.println(a);
+a=a+10;//a=a+10
+System.out.println(a);
+a=a-5;
+System.out.println(a);
+a=a*5;
+System.out.println(a);
+a=a/4;
+System.out.println(a);
+a=a%2;
+
+//relational operator
+Integer b=parse.Integer(args[0]);
+Integer c=parse.Integer(args[1]);
+System.out.println(b>c);
+System.out.println(b<c);
+System.out.println(b==c);
+System.out.println(b!=c);
+System.out.println(b>=c);
+System.out.println(b<=c);
+// arithimetic operator
+Integer d=parse.Integer(args[0]);
+Integer e=parse.Integer(args[1]);
+System.out.println(d+e);
+System.out.println(d-e);
+System.out.println(d*e);
+System.out.println(d/e);
+System.out.println(a&b);
+System.out.println(a/b);
+System.out.println(a%b);
+//logical operator
+Integer f=parse.Integer(args[0]);
+System.out.println(f>10&&f<10);
+System.out.println(f>10||f<10);
+//binary operator
+int g=4;
+System.out.println(f&g);
+System.out.println(f/g);
+System.out.println(f^g);
+System.out.println(~f);
+System.out.println(f>>2);
+System.out.println(f<<2);
+}
+}
+
